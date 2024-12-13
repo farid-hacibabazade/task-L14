@@ -13,4 +13,3 @@ spring:
     open-in-view: false
   liquibase:
     change-log: classpath:liquibase/changelog-master.yml
-    enabled: false

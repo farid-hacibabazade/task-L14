@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: Delete customer data
+      author: Farid Hacibabazade
+      changes:
+        - delete:
+            tableName: customers
+            where: "name = 'Ali Imanov'"

@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: Insert customer data
+      author: Farid Hacibabazade
+      changes:
+        - insert:
+            tableName: customers
+            columns:
+              - column:
+                  name: name
+                  value: "Ali Imanov"
+              - column:
+                  name: birth_date
+                  valueDate: "1990-01-01"
+              - column:
+                  name: country
+                  value: "AZ"
+              - column:
+                  name: salary
+                  valueNumeric: 700.00
+              - column:
+                  name: status
+                  value: "Active"
